@@ -1,0 +1,45 @@
+@media (max-width: 750px) {
+   header li
+   {
+    display: none;
+   }
+ 
+   header li:first-child,header li:nth-child(7),header li:last-child
+   {
+    display: block;
+   }
+   menu
+   {
+    display: none;
+   }.Homepg
+   {
+      margin-top: 10vh;
+      flex-direction: column;
+   }
+   .homepgcontent
+   {
+      width: 100vw !important;
+   }
+   .homepgimg
+   {
+      width: 100vw !important;
+      align-items:start;
+      margin-top: 1.5rem;
+
+
+
+   }
+  }
+  @media (min-width: 750px) {
+  
+ 
+   header li:nth-child(7),header li:last-child
+   {
+    display: none;
+   }
+   menu
+   {
+    display: none !important;
+   }
+  
+  }

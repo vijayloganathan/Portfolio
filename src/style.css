@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior:smooth;
+}
+body{
+    background-color: rgba(0, 0, 34, 255);
+    color: white;
+}
+header
+{
+position: fixed;
+top: 0px;
+width: 100vw;
+z-index: 999;
+backdrop-filter: blur(10px);
+height: 10vh;
+
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+   margin: 1rem;
+  
+    align-items: center;    
+}
+header li{
+    list-style: none;
+}
+header li:not(:first-child)
+{
+    margin-left: auto;
+}
+header li:first-child
+{
+    margin-right: auto;
+    cursor: pointer;
+}
+header a
+{
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(212, 8, 168), rgb(234, 6, 17));
+    background-clip: text;
+    color: transparent;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+header p{
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(6, 229, 226), rgb(7, 212, 21));
+    background-clip: text;
+    color: transparent;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+
+}
+header li:nth-child(7),header li:last-child
+{
+    background: linear-gradient(to right, rgb(212, 8, 168), rgb(234, 6, 17));
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    
+
+}
+
+
+header .active,header a:hover
+{
+font-style: italic;
+color: white;
+text-decoration: underline;
+text-decoration-style:dashed;
+text-underline-offset: .8rem;
+
+}
+menu{
+    position: fixed;
+    display: none;
+    /* background-color: rgb(255, 255, 255,0.1); */
+    height: 100vh;
+    z-index: 998;
+    align-items:center;
+    width: 100vw;
+backdrop-filter: blur(10px);    
+}
+menu ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    align-items: end;
+    width: 90vw;
+}
+
+menu a
+{
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(212, 8, 168), rgb(234, 6, 17));
+    background-clip: text;
+    color:transparent;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+menu a:hover, menu .active{
+color: white !important;
+font-style: italic;
+}
+menu span{
+    font-weight: 400;
+    border: 1px solid white;
+    padding: .5rem;
+    border-style:dashed;
+    border-radius: 10px;
+}
+.Mainclass
+{
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Homepg
+{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    width: 100vw;
+    
+}
+
+.homepgcontent
+{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+    width: 60vw;
+    font-size: 1.3rem;
+    align-items: center;
+   
+    
+}
+.homepgcontent div
+{
+    width: 90%;
+}
+
+.homepgcontent p
+{
+    text-transform: capitalize;
+}
+.homepgcontent p:nth-child(3)
+{
+    background-color: rgb(13, 223, 223);
+    color: rgba(0, 0, 34, 255);
+    font-weight: bold;
+    padding-left: .7rem;
+    
+}
+.homepgcontent p:nth-child(2)
+{
+    background: linear-gradient(to right, rgb(212, 8, 168), rgb(234, 6, 17));
+    color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+
+}
+.homepgimg
+{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.homepgimg .img{
+    width: calc(0.15 * 100vw + 190px);
+  height: calc(0.15 * 100vw + 190px);
+  border-radius: 50% 50% 51% 49% / 39% 39% 61% 61%;
+  background-color: rgba(13, 223, 223, 0.7);
+  box-shadow: 0px 0px 30rem rgba(0, 255, 255, 0.9);
+  background-image: url("./assets/image/profile2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(blue);
+}
+
+ .About
+ {
+ }
