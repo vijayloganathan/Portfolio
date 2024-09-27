@@ -8,6 +8,11 @@
    {
     display: block;
    }
+   .homepgcontent p
+{
+    font-size: 1rem;
+
+}
    menu
    {
     display: none;
