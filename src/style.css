@@ -143,7 +143,7 @@ menu span{
 {
     display: flex;
     flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
     width: 60vw;
     font-size: 1.3rem;
     align-items: center;
