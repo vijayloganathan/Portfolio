@@ -137,8 +137,7 @@ menu span{
     flex-direction: row;
     display: flex;
     width: 100vw;
-    height: 100vh;
-    background-color: red;
+    height: 90vh;
     
 }
 
@@ -203,4 +202,6 @@ menu span{
 
  .About
  {
+    background-color: white;
+    height: 100vh;
  }
