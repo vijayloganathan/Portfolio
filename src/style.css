@@ -158,6 +158,8 @@ menu span{
 .homepgcontent p
 {
     text-transform: capitalize;
+    font-size: .5rem;
+
 }
 .homepgcontent p:nth-child(3)
 {
